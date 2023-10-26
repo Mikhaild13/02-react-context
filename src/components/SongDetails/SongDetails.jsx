@@ -10,7 +10,7 @@ const SongDetails = () => {
         selectedSong.title
           ? (
             <div>
-              <img src={selectedSong.imq_url} alt={selectedSong.title} />
+              <img src={selectedSong.img_url} alt={selectedSong.title} />
               <h2>{selectedSong.title}</h2>
               <h3>{selectedSong.artist}</h3>
               <h6>{selectedSong.year}</h6>

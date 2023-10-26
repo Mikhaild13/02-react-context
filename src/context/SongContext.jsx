@@ -25,7 +25,7 @@ function SongProvider ({ children }) {
   }
 
   return (
-    <SongContext.Provider value={{ data }}>
+    <SongContext.Provider value={data}>
       {children}
     </SongContext.Provider>
   )
